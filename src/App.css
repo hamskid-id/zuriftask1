@@ -1,10 +1,76 @@
+
 .App {
   text-align: center;
 }
-
+.main{
+  padding:3rem;
+}
+.mont{
+  font-family: 'Roboto Slab', serif;
+}
+.button{
+  width: 70%;
+  padding: 0.8rem;
+  background: #EAECF0;
+  border-radius: 5px;
+  border: #EAECF0;
+}
+.social{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.slack-p{
+  width: 3%;
+  margin-right: 3rem;
+}
+.slack-social{
+  width:100%;
+}
+.footer{
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-family: 'Montserrat', sans-serif;
+}
+.red-circle{
+  width:3%;
+}
+.empty-div{
+  width:10%;
+}
+.zuri{
+  text-align: left;
+  font-weight: bold;
+}
+.hng{
+  margin-right: 10rem;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+@media only screen and (min-width:320px) and (max-width:767px){
+  .main{
+    padding:3rem 1rem;
+  }
+  .footer{
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+  }
+  .slack-p{
+    width: 9%;
+  }
+  .hng{
+    margin-right: 0;
+  }
+  .button{
+    width: 100%;
+  }
 }
 
 @media (prefers-reduced-motion: no-preference) {
