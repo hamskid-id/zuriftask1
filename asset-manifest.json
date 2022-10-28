@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/zuriftask1/static/css/main.11d0d61a.css",
+    "main.js": "/zuriftask1/static/js/main.cac69759.js",
+    "static/js/787.28cb0dcd.chunk.js": "/zuriftask1/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "/zuriftask1/index.html",
+    "main.11d0d61a.css.map": "/zuriftask1/static/css/main.11d0d61a.css.map",
+    "main.cac69759.js.map": "/zuriftask1/static/js/main.cac69759.js.map",
+    "787.28cb0dcd.chunk.js.map": "/zuriftask1/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.11d0d61a.css",
+    "static/js/main.cac69759.js"
+  ]
+}
