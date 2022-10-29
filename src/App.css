@@ -3,14 +3,16 @@
   text-align: center;
 }
 .main{
-  padding:3rem;
+  padding:3rem 3rem;
+
 }
 .mont{
   font-family: 'Roboto Slab', serif;
 }
 .button{
   width: 70%;
-  padding: 0.8rem;
+  padding: 1.3rem;
+  margin-bottom:0.4rem;
   background: #EAECF0;
   border-radius: 5px;
   border: #EAECF0;
@@ -25,6 +27,12 @@
   width: 3%;
   margin-right: 3rem;
 }
+.share-icon{
+  display:block;
+}
+.dot-icon{
+  display: none;
+}
 .slack-social{
   width:100%;
 }
@@ -35,19 +43,35 @@
   align-items: center;
   justify-content: space-between;
   font-family: 'Montserrat', sans-serif;
+  border-top:2px solid #EAECF0;
+}
+.profile{display: flex; flex-direction: column;align-items: center;}
+.icon{
+  position: absolute;
+  right: 0;
+  margin-right: 7rem;
+  width:fit-content;
+  border-radius: 100px;
+  border: 2px solid #EAECF0;
+  padding:0.5rem;
 }
 .red-circle{
   width:3%;
 }
+
 .empty-div{
   width:10%;
 }
 .zuri{
   text-align: left;
   font-weight: bold;
+  margin-bottom: 0;
 }
 .hng{
   margin-right: 10rem;
+  color:grey;
+  font-weight:500;
+  margin-bottom: 0;
 }
 .App-logo {
   height: 40vmin;
@@ -71,6 +95,16 @@
   .button{
     width: 100%;
   }
+  .share-icon{
+    display:none
+  }
+  .dot-icon{
+    display: block;
+  }
+  .icon{
+    margin-right:1rem;
+    padding:1rem 0.6rem;
+  }
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -93,6 +127,7 @@
 .App-link {
   color: #61dafb;
 }
+
 
 @keyframes App-logo-spin {
   from {
