@@ -1,0 +1,232 @@
+
+.App {
+  text-align: center;
+}
+.main{
+  padding:3rem 3rem;
+}
+.contact_family{
+  font-family: 'Montserrat', sans-serif;
+}
+label{
+  font-weight:500;
+}
+.innertext,label{
+  font-size:12px;
+}
+ .mobileContactSubHeader{
+    display:none;
+  }
+  .contact-container{
+    padding:3rem 1rem;
+  }
+  .contact-form{
+    width:75%;
+  }
+.mont{
+  font-family: 'Roboto Slab', serif;
+}
+.profile-box{
+  width: fit-content;
+  position: relative;
+}
+#profile__img:hover{
+  filter:brightness(0.3)
+}
+#profile__img:hover + .camera{
+  display: block;
+}
+.camera{
+  position: absolute;
+  bottom: 1.5rem;
+  left:2.4rem;
+  display: none;
+}
+.twitter{
+  margin-top: 0;
+  font-weight: bold;
+}
+.twitter a{
+  text-decoration:none;
+  color:black;
+}
+input{
+ border: 1px solid grey;
+}
+.button{
+  width: 70%;
+  text-align: center;
+  padding: 1.3rem;
+  margin-bottom:0.4rem;
+  background: #EAECF0;
+  border-radius: 5px;
+  border: #EAECF0;
+  margin: 1.5rem auto;
+}
+.button a{
+  text-decoration: none;
+  color: black;
+}
+.social{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.slack-p{
+  width: 3%;
+  margin-right: 3rem;
+}
+.share-icon{
+  display:block;
+}
+.dot-icon{
+  display: none;
+}
+.slack-social{
+  width:100%;
+}
+.footer{
+  margin-top: 3rem;
+  padding-top:0.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-family: 'Montserrat', sans-serif;
+  border-top:2px solid #EAECF0;
+}
+.message_prompt{
+  display:none;
+}
+ #message:focus:invalid{
+  border:1px solid red;
+ }
+ #message:focus:invalid + .message_prompt{
+  display:block;
+ }
+
+ #message:focus:valid + .message_prompt{
+  display:none;
+ }
+
+ #message:focus:valid{
+  border:1px solid grey;
+ }
+.profile{display: flex; flex-direction: column;align-items: center;}
+.icon{
+  position: absolute;
+  right: 0;
+  margin-right: 7rem;
+  width:fit-content;
+  border-radius: 100px;
+  border: 2px solid #EAECF0;
+  padding:0.5rem;
+}
+.red-circle{
+  width:3%;
+}
+
+.empty-div{
+  width:10%;
+}
+textarea{
+  height:5rem;
+}
+.zuri{
+  text-align: left;
+  font-weight: bold;
+  font-size:13px;
+  margin-bottom: 0;
+}
+.footer_img{
+  height:1.5rem;
+}
+.hng{
+  margin-right: 10rem;
+  font-size:13px;
+  color:grey;
+  font-weight:500;
+  margin-bottom: 0;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+@media only screen and (min-width:320px) and (max-width:767px){
+  .main{
+  padding:3rem 0.5rem;
+  }
+  .zuri{
+  margin-bottom:0.5rem;
+  }
+  .hng{
+  margin-bottom:0.5rem;
+  }
+  .contact-container{
+    padding:3rem 1rem;
+    
+  }
+  .contact-form{
+    width:100%;
+  }
+  .mobileContactSubHeader{
+    display:block;
+  }
+  .footer{
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+  }
+  .slack-p{
+    width: 9%;
+  }
+  .hng{
+    margin-right: 0;
+  }
+  .button{
+    width:auto;
+    width:100%;
+  }
+  .share-icon{
+    display:none
+  }
+  .dot-icon{
+    display: block;
+  }
+  .icon{
+    margin-right:1rem;
+    padding:1rem 0.6rem;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
